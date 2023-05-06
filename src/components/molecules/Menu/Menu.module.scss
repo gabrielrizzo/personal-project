@@ -1,0 +1,29 @@
+@import '@/styles/tokens/index.scss';
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+.menu {
+    z-index: 2;
+    min-height: 80px;
+    box-shadow: $elevation;
+    background: var( --background-color);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $spacing--sm $spacing--md;
+    font-size: $font-size--lg;
+    
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        user-select: none;
+    }
+
+    a {
+        font-family: 'Oswald', sans-serif;
+    }
+
+    a:visited {
+        color: var(--dark);
+    }
+}

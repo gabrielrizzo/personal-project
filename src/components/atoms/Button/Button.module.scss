@@ -1,0 +1,21 @@
+@import '@/styles/tokens/index.scss';
+
+.button {
+    padding: $spacing--sm + 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+
+    &--outline {
+        $self: &;
+        background: transparent;
+        border: 2px solid var(--primary-color);
+
+        &:hover {
+            background: var(--primary-color);
+            color: var(--light);
+            box-shadow: 0 8px 8px -4px var(--primary-color--lighter);
+        }
+    }
+
+}

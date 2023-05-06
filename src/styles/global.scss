@@ -1,0 +1,15 @@
+/* https://coolors.co/e7ecef-879cb3-274c77-447199-6096ba-a3cef1-8b8c89 */
+@import './tokens/color-pallet.scss';
+@import './tokens/font.scss';
+@import './reset.scss';
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size--md;
+    background-color: var(--background-color);
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}  

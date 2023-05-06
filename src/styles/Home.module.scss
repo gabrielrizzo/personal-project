@@ -1,0 +1,21 @@
+@import '@/styles/tokens/index.scss';
+
+.home {
+  &__section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: $spacing--lg;
+    padding-bottom: $spacing--md;
+  }
+
+  &__heading-text {
+    font-family: 'Oswald', sans-serif;
+    user-select: none;
+    font-size: $font-size--xxl;
+    margin: $spacing--lg;
+    margin-left: $spacing--sm;
+    color: var(--primary-color)
+}
+}

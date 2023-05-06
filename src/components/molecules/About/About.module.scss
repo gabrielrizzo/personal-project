@@ -1,0 +1,51 @@
+@import '@/styles/tokens/index.scss';
+.about {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    &__heading-text {
+        font-family: 'Oswald', sans-serif;
+        user-select: none;
+        font-size: $font-size--xxl;
+        margin: $spacing--md;
+        color: var(--light)
+    }
+
+    &__avatar {
+        margin: $spacing--md;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid var(--light)
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: $spacing--md 0;
+    }
+
+    &__text {
+        color: var(--light);
+        width: 80%;
+        line-height: 2;
+    }
+
+    &__social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: $spacing--md;
+        width: 100%;
+        
+        img {
+            filter: invert(100%) sepia(9%) saturate(7489%) hue-rotate(170deg) brightness(119%) contrast(98%);
+        }
+    }
+}
