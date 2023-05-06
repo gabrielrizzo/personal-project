@@ -12,11 +12,10 @@
     justify-content: space-between;
     align-items: center;
     padding: $spacing--sm $spacing--md;
-    font-size: $font-size--lg;
+    font-size: $font-size--xl;
     
     h1 {
         font-family: 'Oswald', sans-serif;
-        user-select: none;
     }
 
     a {
@@ -25,5 +24,13 @@
 
     a:visited {
         color: var(--dark);
+    }
+
+    &__main-text {
+        user-select: none;
+        gap: $spacing--sm;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 }

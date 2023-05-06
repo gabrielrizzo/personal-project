@@ -4,7 +4,10 @@ import Icon from '@/components/atoms/Icon/Icon'
 const Menu = () => {
     return (
         <div className={styles.menu}>
-            <h1>Gabriel.dev <Icon fill={true} icon="Code" /></h1>
+            <div className={styles['menu__main-text']}>
+                <h1>Gabriel.dev</h1>
+                <Icon fill={true} icon="Code" />
+            </div>
             <nav>
                 <ul>
                     <a href="#about" >About me</a>
