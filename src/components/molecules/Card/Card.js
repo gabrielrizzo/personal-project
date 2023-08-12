@@ -32,7 +32,8 @@ const Card = ({ label, description, img, stars, link }) => {
 Card.propTypes = {
   label: propTypes.string,
   description: propTypes.string,
-  stars: propTypes.number
+  stars: propTypes.number,
+  link: propTypes.string
 }
 
 Card.displayName = 'Card'
