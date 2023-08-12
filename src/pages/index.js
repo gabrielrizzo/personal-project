@@ -19,7 +19,7 @@ export default function Home({ gitHubData }) {
         link={repo.html_url}
       />
     ))
-  })
+  }, [])
 
   return (
     <>
