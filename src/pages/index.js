@@ -6,18 +6,19 @@ import fetchGitHubData from '@/services/github'
 import About from '@/components/molecules/About/About'
 
 export default function Home({ gitHubData }) {
-
   const renderCards = useMemo(() => {
     if (!gitHubData) return
 
     return gitHubData?.repos?.map((repo) => (
       <Card
-        key={Math.random()}
+        key={repo.name}
         label={repo.name}
         description={repo.description}
         img={'/github.svg'}
         stars={repo.stargazers_count}
-      />))
+        link={repo.html_url}
+      />
+    ))
   })
 
   return (
