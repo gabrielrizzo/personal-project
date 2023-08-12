@@ -26,6 +26,9 @@ export default function Home({ gitHubData }) {
       <Head>
         <title>Gabriel.dev</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Gabriel Rizzo - Portfólio" />
+        <meta name="author" content="Gabriel Rizzo" />
+        <meta name="keywords" content="Gabriel Rizzo, Portfólio" />
       </Head>
       <div className={styles.home}>
         <h1 className={styles['home__heading-text']}>Projetos</h1>
