@@ -19,15 +19,8 @@
     }
 
     a {
-        font-family: 'Oswald', sans-serif;
-    }
-
-    a:link {
-        text-decoration: none;
-    }
-
-    a:visited {
         color: var(--dark);
+        font-family: 'Oswald', sans-serif;
         text-decoration: none;
     }
 
