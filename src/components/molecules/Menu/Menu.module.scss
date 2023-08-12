@@ -22,8 +22,13 @@
         font-family: 'Oswald', sans-serif;
     }
 
+    a:link {
+        text-decoration: none;
+    }
+
     a:visited {
         color: var(--dark);
+        text-decoration: none;
     }
 
     &__main-text {
